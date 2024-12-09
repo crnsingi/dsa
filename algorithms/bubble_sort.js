@@ -16,7 +16,6 @@
                 swapped = true;
 
             }
-
         }
-    }
+    } while(swapped);
  }
