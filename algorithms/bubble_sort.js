@@ -18,4 +18,5 @@
             }
         }
     } while(swapped);
+    return array; // return the array with the swapped values.
  }
