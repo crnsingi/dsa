@@ -7,7 +7,11 @@ function insertionSort(array) {
         // and the previous item's value is bigger than the current value. You don't override.
         // set the previous item equal to the current item in the array
         while (j >=0 && array[j] > temp) {
-            
+            // Set the current item to the previous item.
+            // which value was bigger than the current value. You dont override
+            // the current value, as that's still stored in the temp var.
+            array[j + 1] = array[j];
+
         }
 
     }
