@@ -12,6 +12,10 @@ function insertionSort(array) {
             // the current value, as that's still stored in the temp var.
             array[j + 1] = array[j];
 
+            // Go to the previous item in the array, and check again whether this value
+            // is bigger or smaller than the current item's value.
+            j--;
+
         }
 
     }
