@@ -15,9 +15,12 @@ function insertionSort(array) {
             // Go to the previous item in the array, and check again whether this value
             // is bigger or smaller than the current item's value.
             j--;
-
         }
 
+        // As the current item just switched position, you need to redeclare
+        // the value of the temp variable, as it's no longer equal to array [i].
+
+        array[j + 1] = temp;
     }
 
 }
