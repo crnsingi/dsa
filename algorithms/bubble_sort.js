@@ -11,7 +11,9 @@
             // to be incrementally sorted).'
             if(array[i] && array[i + 1] && array[i] > array[i + 1]) {
                 //Set the current item to the next item, and the next item to be current item.
-                [array[i], array[i +1]] = [array[i + 1], array[i]];
+                [array[i], array[i + 1]] = [array[i + 1], array[i]];
+                //Set swapped to true, do-while loop will still run
+                swapped = true;
 
             }
 
