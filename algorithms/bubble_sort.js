@@ -2,8 +2,7 @@
     let swapped;
     do { 
         swapped = false; // set var swapped to false as default value.
-        // Loop over array
-        for(let i = 0; i < array.length; i++){
+        for(let i = 0; i < array.length; i++){         // Loop over array
             // If the array has the current value and the next value
             // and the current value is bigger than the next value:
             // the two values need to be swapped (assuming you want the items)
