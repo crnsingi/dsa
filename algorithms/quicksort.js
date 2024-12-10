@@ -30,6 +30,9 @@ function partitionHoare(array, left, right) { // Calculate currently active pivo
         // current right's value has to go down one in order to check the next element's value.
         right--;
         }
+        if (left <= right) { // Swap the elements until they are in the correct position 
+
+        }
     
     }
 
