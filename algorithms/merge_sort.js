@@ -12,3 +12,7 @@ const right = array.slice(middle); // abd right if the middle value
 // Keep on slicing the array(s) into the smaller arrays, until you only have arrays containing one element
 return mergeSortTopDown(mergeSortTopDown(left), mergeSortTopDown(right)); 
 }
+
+function mergeTopDown(){
+    
+}
