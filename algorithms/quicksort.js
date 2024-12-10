@@ -12,6 +12,5 @@ function quicksort(array, left, right) { // Find the left and right side of the 
     if(right > pivot) {
         quicksort(array, pivot, right);
     }
-
-
+    return array;
 }
