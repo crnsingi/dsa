@@ -5,8 +5,10 @@ function mergeSortTopDown(array) { // top-down implementation
         return array;
     }
 
-const middle = Math.floor(array.length / 2);
-const left = array.slice(0, middle);
-const right = array.slice(middle);
+const middle = Math.floor(array.length / 2); // Find the middle of the array
+const left = array.slice(0, middle); // and the arrays with all the values left
+const right = array.slice(middle); // abd right if the middle value
 
+// Keep on slicing the array(s) into the smaller arrays, until you only have arrays containing one element
+return mergeSortTopDown(mergeSortTopDown(left), mergeSortTopDown(right)); 
 }
