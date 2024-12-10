@@ -13,6 +13,7 @@ const right = array.slice(middle); // abd right if the middle value
 return mergeSortTopDown(mergeSortTopDown(left), mergeSortTopDown(right)); 
 }
 
-function mergeTopDown(){
-    
+function mergeTopDown(left, right){
+    const array = [];
+
 }
