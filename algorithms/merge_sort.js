@@ -24,6 +24,6 @@ function mergeTopDown(left, right){
         } else { 
             array.push(right.shift());
         }
-
     }
+    return array.concat(left.slice()).concat(right.slice());
 }
