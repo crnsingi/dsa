@@ -17,6 +17,9 @@ function mergeTopDown(left, right){
     const array = [];
 
     while(left.length && right.length) {
-        
+        if(left[0] < right[0]) {
+            
+        }
+
     }
 }
