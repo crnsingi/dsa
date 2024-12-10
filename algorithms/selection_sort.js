@@ -7,9 +7,15 @@ function selectionSort(array) {
             if (array[j] < array[min]) {
                 min = j;
             }
-
+          // Keep on looping until you've looped over all the items in the array
+         // in order to find values smaller than the current active minimum.
         }
+        // If the current index isn't equal to the active minimum value's index anymore
+      // swap these two elements.
 
+      if (i !== min) {
+        [array[i], array[min]] = [array[min], array[i]];
+      }
      } 
-
+     return array
 }
