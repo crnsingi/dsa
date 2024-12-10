@@ -14,3 +14,7 @@ function quicksort(array, left, right) { // Find the left and right side of the 
     }
     return array;
 }
+
+function partitionHoare() {
+    
+}
