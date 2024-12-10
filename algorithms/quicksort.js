@@ -31,9 +31,10 @@ function partitionHoare(array, left, right) { // Calculate currently active pivo
         right--;
         }
         if (left <= right) { // Swap the elements until they are in the correct position 
-
+            [array[left], array[right]] = [array[right], array[left]];
+            left++;
+            right--;
         }
-    
     }
-
+    return left; // Return the left's value as the new pivot in the quicksort function
 }
