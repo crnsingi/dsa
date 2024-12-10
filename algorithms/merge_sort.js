@@ -7,7 +7,7 @@ function mergeSortTopDown(array) { // top-down implementation
 
 const middle = Math.floor(array.length / 2); // Find the middle of the array
 const left = array.slice(0, middle); // and the arrays with all the values left
-const right = array.slice(middle); // abd right if the middle value
+const right = array.slice(middle); // add right if the middle value
 
 // Keep on slicing the array(s) into the smaller arrays, until you only have arrays containing one element
 return mergeSortTopDown(mergeSortTopDown(left), mergeSortTopDown(right)); 
@@ -16,4 +16,7 @@ return mergeSortTopDown(mergeSortTopDown(left), mergeSortTopDown(right));
 function mergeTopDown(left, right){
     const array = [];
 
+    while(left.length && right.length) {
+        
+    }
 }
