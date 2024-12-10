@@ -25,6 +25,11 @@ function partitionHoare(array, left, right) { // Calculate currently active pivo
         while (array[left] < array[pivot]) {
             left++;
         }
+        while(array[right] > array[pivot]) {
+        // The same as for left, however, the right value goes from right to left. This means that the 
+        // current right's value has to go down one in order to check the next element's value.
+        right--;
+        }
     
     }
 
