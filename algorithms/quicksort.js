@@ -15,6 +15,7 @@ function quicksort(array, left, right) { // Find the left and right side of the 
     return array;
 }
 
-function partitionHoare() {
-    
+function partitionHoare(array, left, right) { // Calculate currently active pivot.
+    const pivot = Math.floor((left + right) / 2);
+
 }
