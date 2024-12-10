@@ -6,8 +6,11 @@ function quicksort(array, left, right) { // Find the left and right side of the 
 
     const pivot = partitionHoare(array, left, right);
 
-    if(left <pivot -1 ) {
-        
+    if(left < pivot -1 ) {
+        quicksort(array, left, pivot - 1);
+    }
+    if(right > pivot) {
+        quicksort(array, pivot, right);
     }
 
 
