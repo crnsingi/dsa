@@ -4,5 +4,7 @@ function quicksort(array, left, right) { // Find the left and right side of the 
     left = left || 0;
     right = right || array.length - 1;
 
+    const pivot = partitionHoare(array, left, right);
+
 
 }
