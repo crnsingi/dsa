@@ -6,7 +6,7 @@ function quicksort(array, left, right) { // Find the left and right side of the 
 
     const pivot = partitionHoare(array, left, right);
 
-    if(left < pivot -1 ) {
+    if(left < pivot - 1) {
         quicksort(array, left, pivot - 1);
     }
     if(right > pivot) {
@@ -17,5 +17,15 @@ function quicksort(array, left, right) { // Find the left and right side of the 
 
 function partitionHoare(array, left, right) { // Calculate currently active pivot.
     const pivot = Math.floor((left + right) / 2);
+
+    // If left's value is smaller than or equal to right's value, meaning that the values are in the right place,
+    // and the left item's value is smaller than the pivot, move the currently checked item
+    // one step to the left, without swapping anything. The values are already in the right place.
+    while (left <= right) {
+        while (array[left] < array[pivot]) {
+            left++;
+        }
+    
+    }
 
 }
