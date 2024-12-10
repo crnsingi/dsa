@@ -5,4 +5,6 @@ function mergeSortTopDown(array) { // top-down implementation
         return array;
     }
 
+const middle = Math.floor(array.length / 2);
+
 }
