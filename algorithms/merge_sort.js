@@ -18,7 +18,10 @@ function mergeTopDown(left, right){
 
     while(left.length && right.length) {
         if(left[0] < right[0]) {
-            
+           // Check which value is higher, If the left right's value is higher,
+           // push the left item to the array, as lowest values come first in the array . 
+           array.push(left.shift());
+
         }
 
     }
