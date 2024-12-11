@@ -3,3 +3,7 @@ function Node(data) {
     this.left = null;
     this.right = null;
 }
+
+class BinarySearchTree { 
+    
+}
