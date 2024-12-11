@@ -23,8 +23,18 @@ class BinarySearchTree {
                     // and the new node's data is smaller than the current node's data
                     // set the current node's left value equal to the new node.
                     current.left = node;
-
+                    break;
                  }
+                    // Loop until !current.left returns true.
+                    current = current.left;
+                } else if (node.data > current.data) {
+                    //Same as for previous one, but opposite
+                    if(!current.right) {
+                        
+                    }
+                }
+
+
 
                 }
             }
