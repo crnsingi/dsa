@@ -18,7 +18,10 @@ class BinarySearchTree {
             let current = this.root;
             while (current) {
                 if (node.data < current.data) {
-                    
+                 if(!current.left){
+
+                 }
+
                 }
             }
         }
