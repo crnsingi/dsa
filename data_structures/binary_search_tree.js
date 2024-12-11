@@ -30,7 +30,9 @@ class BinarySearchTree {
                 } else if (node.data > current.data) {
                     //Same as for previous one, but opposite
                     if(!current.right) {
-                        
+                        current.right = node;
+                        break;
+
                     }
                 }
 
