@@ -32,8 +32,8 @@ class BinarySearchTree {
                     if(!current.right) {
                         current.right = node;
                         break;
-
                     }
+                    current = current.right;
                 }
 
 
