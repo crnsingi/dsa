@@ -52,7 +52,11 @@ class BinarySearchTree {
                 if(!node.left && !node.right) {
                     return null;
                 }
-
+             // If the node doesn't have a left value, or a right value, it means
+             // that the node is at the end. Return the value before/after this node.
+             if (!node.left) {
+                return node.right;
+             }
             }
     
         }
