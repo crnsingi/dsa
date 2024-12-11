@@ -8,5 +8,9 @@ class BinarySearchTree {
     constructor() {
         this.root = null;
     }
+
+    add(data){
+        
+    }
     
 }
