@@ -45,7 +45,10 @@ class BinarySearchTree {
         const removeNode = (node, data) => {
             if(!node) {
                 return null;
+            }
 
+            if (data === node.data) {
+                
             }
     
         }
