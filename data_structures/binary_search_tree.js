@@ -42,5 +42,7 @@ class BinarySearchTree {
     }
     remove (data) {
         const self = this;
-
+        const removeNode = (node, data) {
+    
+        }
     }
