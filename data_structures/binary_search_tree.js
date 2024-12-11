@@ -16,6 +16,11 @@ class BinarySearchTree {
             this.root = node;
         } else { 
             let current = this.root;
+            while (current) {
+                if (node.data < current.data) {
+                    
+                }
+            }
         }
 
     }
