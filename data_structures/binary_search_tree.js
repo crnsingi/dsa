@@ -5,5 +5,8 @@ function Node(data) {
 }
 
 class BinarySearchTree { 
+    constructor(){
+        
+    }
     
 }
