@@ -49,7 +49,9 @@ class BinarySearchTree {
 
             if (data === node.data) {
                 //We found the node we want to remove
-                if(!node.left && !node.right) {}
+                if(!node.left && !node.right) {
+                    return null;
+                }
 
             }
     
