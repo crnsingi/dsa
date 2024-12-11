@@ -57,6 +57,9 @@ class BinarySearchTree {
              if (!node.left) {
                 return node.right;
              }
+             if (!node.right) {
+                return node.left;
+             }
             }
     
         }
