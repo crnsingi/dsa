@@ -14,6 +14,8 @@ class BinarySearchTree {
         if(!this.root){
             // If the tree doesn't have a length, set the new node to the root.
             this.root = node;
+        } else { 
+            let current = this.root;
         }
 
     }
