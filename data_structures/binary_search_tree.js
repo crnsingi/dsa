@@ -19,6 +19,10 @@ class BinarySearchTree {
             while (current) {
                 if (node.data < current.data) {
                  if(!current.left){
+                    // If the current node doesn't have a left value
+                    // and the new node's data is smaller than the current node's data
+                    // set the current node's left value equal to the new node.
+                    current.left = node;
 
                  }
 
