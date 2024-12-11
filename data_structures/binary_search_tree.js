@@ -34,6 +34,8 @@ class BinarySearchTree {
                         break;
                     }
                     current = current.right;
+                } else { 
+                    break;
                 }
 
 
