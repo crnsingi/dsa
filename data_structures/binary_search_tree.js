@@ -110,8 +110,13 @@ class BinarySearchTree {
             }
             this.preOrder(node.left, fn);
             this.preOrder(node, right, fn);
-
         }
-
     }
+
+    inOrder(node, fn) { 
+        
+    }
+    
+
+
 }
