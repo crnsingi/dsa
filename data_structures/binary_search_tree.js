@@ -118,10 +118,9 @@ class BinarySearchTree {
             this.inOrder(node.left, fn);
             if(fn) {
                 fn(node);
-
             }
+            this.inOrder(node.right, fn);
         }
-
     }
     
 
