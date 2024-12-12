@@ -123,6 +123,9 @@ class BinarySearchTree {
         }
     }
     
+    postOrder(node, fn) {
+        
+    }
 
 
 }
