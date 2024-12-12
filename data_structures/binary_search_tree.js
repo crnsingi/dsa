@@ -99,6 +99,7 @@ class BinarySearchTree {
                 current = current.right;
             }
         }
-        
+
+        return false;
     }
 }
