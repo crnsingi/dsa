@@ -127,6 +127,9 @@ class BinarySearchTree {
         if(node) {
             this.postOrder(node.left, fn);
             this.postOrder(node.right, fn);
+            if(fn) {
+                
+            }
         }
 
     }
