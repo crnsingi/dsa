@@ -77,8 +77,9 @@ class BinarySearchTree {
             } else {
                 // If all values are too big, remove the most right node.
                 node.right = removeNode(node.right, data);
+                return node;
             }
-    
-        }
+        };
+        this.root = removeNode(this.root, data)
     }
 }
