@@ -138,6 +138,7 @@ class BinarySearchTree {
         const current = this.root;
         if (method) {
             // Invoke method passed as arg on current node .
+            this[`${method}`] (current, fn);
         }
 
     }
