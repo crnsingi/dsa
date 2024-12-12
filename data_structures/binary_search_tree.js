@@ -66,6 +66,7 @@ class BinarySearchTree {
             // gets returned, as the right's left is the current node. 
             // Set this as our temp var to not override the value.
             const temp = self.getMin(node.right);
+            node.data = temp;
             }
     
         }
