@@ -69,6 +69,7 @@ class BinarySearchTree {
             node.data = temp;
             // Remove the node's right.
             node.right = removeNode(node.right, temp);
+            return node;
             }
     
         }
