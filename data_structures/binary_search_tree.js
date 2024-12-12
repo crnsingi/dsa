@@ -86,7 +86,10 @@ class BinarySearchTree {
     contains(data) {
         let current = this.root;
         while(current) {
-            
+            if (data === current.data) {
+                
+            }
+
         }
         
     }
