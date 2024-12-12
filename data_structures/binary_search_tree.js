@@ -67,6 +67,8 @@ class BinarySearchTree {
             // Set this as our temp var to not override the value.
             const temp = self.getMin(node.right);
             node.data = temp;
+            // Remove the node's right.
+            node.right = removeNode(node.right, temp);
             }
     
         }
