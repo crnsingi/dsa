@@ -60,6 +60,12 @@ class BinarySearchTree {
              if (!node.right) {
                 return node.left;
              }
+
+            // The getMin function returns the value of the node on the left
+            // if we pass the node to the right as an argument, the current node 
+            // gets returned, as the right's left is the current node. 
+            // Set this as our temp var to not override the value.
+            const temp = self.getMin(node.right);
             }
     
         }
