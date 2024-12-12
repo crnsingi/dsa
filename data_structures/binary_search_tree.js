@@ -84,6 +84,7 @@ class BinarySearchTree {
     }
 
     contains(data) {
+        let current = this.root;
         
     }
 }
