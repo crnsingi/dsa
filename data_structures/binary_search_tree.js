@@ -80,6 +80,10 @@ class BinarySearchTree {
                 return node;
             }
         };
-        this.root = removeNode(this.root, data)
+        this.root = removeNode(this.root, data);
+    }
+
+    contains(data) {
+        
     }
 }
