@@ -139,8 +139,9 @@ class BinarySearchTree {
         if (method) {
             // Invoke method passed as arg on current node .
             this[`${method}`] (current, fn);
+        } else { 
+            this. preOrder(current, fn);
         }
-
     }
 
 
