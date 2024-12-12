@@ -136,6 +136,9 @@ class BinarySearchTree {
     traverseDFS(fn, method) {
         // Depth-first search.
         const current = this.root;
+        if (method) {
+            // Invoke method passed as arg on current node .
+        }
 
     }
 
