@@ -87,7 +87,8 @@ class BinarySearchTree {
         let current = this.root;
         while(current) {
             if (data === current.data) {
-                
+                // If the node's data is equal ro the data, it exists in the list.
+                return true;
             }
 
         }
