@@ -106,8 +106,9 @@ class BinarySearchTree {
     preOrder(node, fn) {
         if(node) {
             if(fn) { 
-                
+                fn(node);
             }
+            this.preOrder(node.left, fn);
 
         }
 
