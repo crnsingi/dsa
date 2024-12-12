@@ -124,7 +124,10 @@ class BinarySearchTree {
     }
     
     postOrder(node, fn) {
-        
+        if(node) {
+            this.postOrder(node.left, fn);
+        }
+
     }
 
 
