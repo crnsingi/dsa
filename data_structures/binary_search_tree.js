@@ -102,4 +102,8 @@ class BinarySearchTree {
 
         return false;
     }
+
+    preOrder(node, fn) {
+        
+    }
 }
