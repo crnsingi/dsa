@@ -134,7 +134,9 @@ class BinarySearchTree {
     }
 
     traverseDFS(fn, method) {
-        
+        // Depth-first search.
+        const current = this.root;
+
     }
 
 
