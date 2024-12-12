@@ -91,6 +91,11 @@ class BinarySearchTree {
                 return true;
             }
 
+            if (data < current.data) {
+                // If the data is too small, go to the node on the left.
+                current = current.left;
+            }
+
         }
         
     }
