@@ -114,7 +114,10 @@ class BinarySearchTree {
     }
 
     inOrder(node, fn) { 
-        
+        if(node) {
+            
+        }
+
     }
     
 
