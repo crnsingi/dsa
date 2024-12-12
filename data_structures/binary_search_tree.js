@@ -74,6 +74,9 @@ class BinarySearchTree {
                 // If all values are too small, remove the most left node
                 node.left = removeNode(node.left, data);
                 return node;
+            } else {
+                // If all values are too big, remove the most right node.
+                node.right = removeNode(node.right, data);
             }
     
         }
