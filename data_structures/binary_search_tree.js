@@ -104,6 +104,9 @@ class BinarySearchTree {
     }
 
     preOrder(node, fn) {
-        
+        if(node) {
+            
+        }
+
     }
 }
