@@ -133,5 +133,11 @@ class BinarySearchTree {
         }
     }
 
+    traverseDFS(fn, method) {
+        
+    }
+
+
+
 
 }
