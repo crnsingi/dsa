@@ -128,10 +128,9 @@ class BinarySearchTree {
             this.postOrder(node.left, fn);
             this.postOrder(node.right, fn);
             if(fn) {
-                
+                fn(node);
             }
         }
-
     }
 
 
