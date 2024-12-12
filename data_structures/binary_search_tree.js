@@ -73,6 +73,7 @@ class BinarySearchTree {
             } else if (data < node.data) {
                 // If all values are too small, remove the most left node
                 node.left = removeNode(node.left, data);
+                return node;
             }
     
         }
