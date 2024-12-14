@@ -184,10 +184,10 @@ class BinarySearchTree {
                 queue.push(node.left);
             }
             if(node.right) { 
-                
+                queue.push(node.right);
             }
-
         }
+        console.log(string.slice(0, -2).trim());
 
     }
 
