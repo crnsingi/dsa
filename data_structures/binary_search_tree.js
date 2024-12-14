@@ -159,12 +159,12 @@ class BinarySearchTree {
             // if the nnode has a left value, push that value to the queue.
             if(node.left) { 
                 this.queue.push(node.left);
-
             }
- 
-
+            // "" "" left = right.
+            if(node.right) {
+                this.queue.push(node.right);
+            }
         }
-
     }
 
 
