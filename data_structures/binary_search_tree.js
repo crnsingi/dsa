@@ -191,7 +191,10 @@ class BinarySearchTree {
     }
 
     printByLevel() {
-        
+        if(!this.root) { 
+            
+        }
+
     }
 
 
