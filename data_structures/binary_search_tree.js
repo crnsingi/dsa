@@ -265,6 +265,12 @@ class BinarySearchTree {
         const heightLeft = this.getHeight(node.left);
         const heigthRight = this.getHeight(node.right);
         const diff = Math.abs(heightLeft - heigthRight);
+        // If the amount of nodes on the left is the same as the amount of
+        // nodes on the right, which means the diff is smaller than one,
+        // the tree is balanced.
+        if(diff > 1) {
+            return false;
+        }
 
     }
 
