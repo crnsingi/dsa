@@ -5,7 +5,8 @@ class Queue {
     }
 
     enqueue(value) { 
-        
+        //Push value to queue.
+        this.queue.push(value);
     }
 
 }
