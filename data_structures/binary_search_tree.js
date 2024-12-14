@@ -214,7 +214,11 @@ class BinarySearchTree {
     }
 
     getMin(node) { 
-        
+        //Get minimum node value.
+        if(!node) { 
+            node = this.root;
+        }
+
     }
 
 
