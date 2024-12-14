@@ -246,7 +246,13 @@ class BinarySearchTree {
         const right = this.getHeight(node.right);
         //Return max vaue of left and right.
         return Math.max(left, right) +1;
+    }
 
+    getHeight(node) { 
+        // If no node has been found, set the node equak to the root .
+        if(!node) { 
+            
+        }
     }
 
 
