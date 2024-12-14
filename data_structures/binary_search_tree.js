@@ -282,6 +282,10 @@ class BinarySearchTree {
         return this.isBalanced(node);
     }
 
+    checkHeight(node) {
+        
+    }
+
 
 
 
