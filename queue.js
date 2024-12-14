@@ -4,4 +4,8 @@ class Queue {
         this.queue = [];
     }
 
+    enqueue(value) { 
+        
+    }
+
 }
