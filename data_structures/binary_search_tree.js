@@ -264,6 +264,7 @@ class BinarySearchTree {
 
         const heightLeft = this.getHeight(node.left);
         const heigthRight = this.getHeight(node.right);
+        const diff = Math.abs(heightLeft - heigthRight);
 
     }
 
