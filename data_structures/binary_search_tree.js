@@ -144,6 +144,13 @@ class BinarySearchTree {
         }
     }
 
+    traverseBFS(fn) { 
+        //Breadth-first search/
+        //Check nodes on every *level* before going down
+        this.queue = [];
+
+    }
+
 
 
 
