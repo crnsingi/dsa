@@ -300,12 +300,9 @@ class BinarySearchTree {
         const diff = Math.abs(left - right);
         if (diff > 1) {
             return -1;
+        } else { 
+            // Return the max value of left and right 
+            return Math.max(left, right) +1;
         }
-
-
     }
-
-
-
-
 }
