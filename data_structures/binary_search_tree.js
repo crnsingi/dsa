@@ -218,6 +218,9 @@ class BinarySearchTree {
         if(!node) { 
             node = this.root;
         }
+        while(node.left) { 
+            
+        }
 
     }
 
