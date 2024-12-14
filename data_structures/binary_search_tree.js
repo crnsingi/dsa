@@ -219,7 +219,7 @@ class BinarySearchTree {
             node = this.root;
         }
         while(node.left) { 
-            
+            node = node.left;
         }
 
     }
