@@ -257,7 +257,11 @@ class BinarySearchTree {
     }
 
     isBalanced(node) { 
-        
+        // Check whether tree is balanced.
+        if(!node) { 
+            return true;
+        }
+
     }
 
 
