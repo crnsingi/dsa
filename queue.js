@@ -12,7 +12,10 @@ class Queue {
     dequeue() {
         //Remove value from queue and return this value.
         return this.queue.shift();
+    }
 
+    peek() { 
+        
     }
 
 }
