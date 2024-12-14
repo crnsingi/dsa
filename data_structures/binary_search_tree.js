@@ -156,6 +156,11 @@ class BinarySearchTree {
             if(fn) {
                 fn(node);
             }
+            // if the nnode has a left value, push that value to the queue.
+            if(node.left) { 
+                
+            }
+ 
 
         }
 
