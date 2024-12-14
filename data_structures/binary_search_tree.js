@@ -210,9 +210,11 @@ class BinarySearchTree {
                 queue.push(node.right);
             }
         }
-
         console.log(string.trim());
+    }
 
+    getMin(node) { 
+        
     }
 
 
