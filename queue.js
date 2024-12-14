@@ -20,7 +20,9 @@ class Queue {
     }
 
     length() { 
-        
+        //Get length of queue 
+        return this.queue.length;
+
     }
 
 }
