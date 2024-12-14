@@ -235,6 +235,10 @@ class BinarySearchTree {
         return node.data;
     }
 
+    getHeight(node) {
+        
+    }
+
 
 
 
