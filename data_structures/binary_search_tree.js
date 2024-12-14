@@ -211,6 +211,8 @@ class BinarySearchTree {
             }
         }
 
+        console.log(string.trim());
+
     }
 
 
