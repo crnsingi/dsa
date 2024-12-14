@@ -206,7 +206,9 @@ class BinarySearchTree {
             if(node.left) { 
                 queue.push(node.left);
             }
-
+            if(node.right) { 
+                queue.push(node.right);
+            }
         }
 
     }
