@@ -221,7 +221,7 @@ class BinarySearchTree {
         while(node.left) { 
             node = node.left;
         }
-
+        return node.data;
     }
 
 
