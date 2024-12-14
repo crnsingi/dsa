@@ -152,6 +152,10 @@ class BinarySearchTree {
         while(this.queue.length) { 
             //Node is equal to the first node in the queue.
             const node = this.queue.shift();
+            //  Invoke function on current node.
+            if(fn) {
+                fn(node);
+            }
 
         }
 
