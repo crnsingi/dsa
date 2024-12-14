@@ -192,7 +192,8 @@ class BinarySearchTree {
 
     printByLevel() {
         if(!this.root) { 
-            
+            return console.log('No root node found');
+
         }
 
     }
