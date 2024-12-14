@@ -297,6 +297,7 @@ class BinarySearchTree {
         if(right === -1) {
             return -1;
         }
+        const diff = Math.abs(left - right);
 
 
     }
