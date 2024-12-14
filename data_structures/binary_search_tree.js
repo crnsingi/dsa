@@ -236,7 +236,12 @@ class BinarySearchTree {
     }
 
     getHeight(node) {
-        
+        // Check heught of current node . of there is no node, meaning that
+        // it doesnt have an index, return -1.
+        if(!node) { 
+            return -1;
+        }
+
     }
 
 
