@@ -298,6 +298,9 @@ class BinarySearchTree {
             return -1;
         }
         const diff = Math.abs(left - right);
+        if (diff > 1) {
+            return -1;
+        }
 
 
     }
