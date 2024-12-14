@@ -203,6 +203,9 @@ class BinarySearchTree {
             if(node === newline && queue.length) { 
                 queue.push(newline);
             }
+            if(node.left) { 
+                
+            }
 
         }
 
