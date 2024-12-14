@@ -9,4 +9,8 @@ class Queue {
         this.queue.push(value);
     }
 
+    dequeue() {
+        
+    }
+
 }
