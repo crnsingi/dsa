@@ -252,8 +252,8 @@ class BinarySearchTree {
         // If no node has been found, set the node equak to the root .
         if(!node) { 
             node = this.root
-
         }
+        return this.getHeight(node);
     }
 
 
