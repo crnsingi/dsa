@@ -195,6 +195,7 @@ class BinarySearchTree {
             return console.log('No root node found');
         }
         const newline = new Node('\n');
+        const queue = [this.root, newline];
 
     }
 
