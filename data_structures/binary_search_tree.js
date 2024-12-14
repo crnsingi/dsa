@@ -286,6 +286,7 @@ class BinarySearchTree {
         if (!node) { 
             return 0;
         }
+        const left = this.checkHeight(node.left);
 
     }
 
