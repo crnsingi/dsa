@@ -241,6 +241,8 @@ class BinarySearchTree {
         if(!node) { 
             return -1;
         }
+        // Invoke second getHeught function with current node as arg. 
+        const left = this.getHeight(node.left);
 
     }
 
