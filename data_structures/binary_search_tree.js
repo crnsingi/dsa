@@ -175,7 +175,8 @@ class BinarySearchTree {
         const queue = [this.root, newline];
         let string = '';
         while(queue.length) { 
-            
+            const node = queue.shift();
+
         }
 
     }
