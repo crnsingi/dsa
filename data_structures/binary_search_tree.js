@@ -287,6 +287,11 @@ class BinarySearchTree {
             return 0;
         }
         const left = this.checkHeight(node.left);
+        // If the returned value of the checkHeight func returns -1, which
+        // means that there is no index for the left value, return -1.
+        if (left === -1) { 
+            return -1
+        }
 
     }
 
