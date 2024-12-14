@@ -283,7 +283,10 @@ class BinarySearchTree {
     }
 
     checkHeight(node) {
-        
+        if (!node) { 
+            return 0;
+        }
+
     }
 
 
