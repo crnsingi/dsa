@@ -293,6 +293,10 @@ class BinarySearchTree {
             return -1;
         }
         const right = this.checkHeight(node.right);
+        // Same as for left, but for right/
+        if(right === -1) {
+            return -1;
+        }
 
 
     }
