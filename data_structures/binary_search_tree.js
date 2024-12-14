@@ -273,7 +273,12 @@ class BinarySearchTree {
         } else { 
             return this.isBalanced(node.left) && this.isBalanced(node.right);
         }
+    }
 
+    isBalanced(node) {
+        if (!node) { 
+            node = this.root;
+        }
     }
 
 
