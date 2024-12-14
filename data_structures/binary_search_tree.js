@@ -204,7 +204,7 @@ class BinarySearchTree {
                 queue.push(newline);
             }
             if(node.left) { 
-                
+                queue.push(node.left);
             }
 
         }
