@@ -196,6 +196,7 @@ class BinarySearchTree {
         }
         const newline = new Node('\n');
         const queue = [this.root, newline];
+        let string = '';
 
     }
 
