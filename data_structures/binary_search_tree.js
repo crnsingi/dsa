@@ -149,6 +149,9 @@ class BinarySearchTree {
         //Check nodes on every *level* before going down
         this.queue = [];
         this.queue.push(this.root);
+        while(this.queue.length) { 
+
+        }
 
     }
 
