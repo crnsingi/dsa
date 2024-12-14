@@ -256,6 +256,10 @@ class BinarySearchTree {
         return this.getHeight(node);
     }
 
+    isBalanced(node) { 
+        
+    }
+
 
 
 
