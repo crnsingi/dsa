@@ -279,6 +279,7 @@ class BinarySearchTree {
         if (!node) { 
             node = this.root;
         }
+        return this.isBalanced(node);
     }
 
 
