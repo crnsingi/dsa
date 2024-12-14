@@ -262,6 +262,8 @@ class BinarySearchTree {
             return true;
         }
 
+        const heightLeft = this.getHeight(node.left);
+
     }
 
 
