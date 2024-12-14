@@ -150,6 +150,8 @@ class BinarySearchTree {
         this.queue = [];
         this.queue.push(this.root);
         while(this.queue.length) { 
+            //Node is equal to the first node in the queue.
+            const node = this.queue.shift();
 
         }
 
