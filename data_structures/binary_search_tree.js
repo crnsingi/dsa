@@ -168,7 +168,10 @@ class BinarySearchTree {
     }
 
     print() {
-        
+        if(!this.root) {
+            
+        }
+
     }
 
 
