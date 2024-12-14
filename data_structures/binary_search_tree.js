@@ -270,6 +270,8 @@ class BinarySearchTree {
         // the tree is balanced.
         if(diff > 1) {
             return false;
+        } else { 
+            return this.isBalanced(node.left) && this.isBalanced(node.right);
         }
 
     }
