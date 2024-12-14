@@ -17,7 +17,10 @@ class Queue {
     peek() { 
         // Return first item in queue.
         return this.queue[0];
+    }
 
+    length() { 
+        
     }
 
 }
