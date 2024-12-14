@@ -224,6 +224,17 @@ class BinarySearchTree {
         return node.data;
     }
 
+    getMax(node) { 
+        //Get maximum node value.
+        if(!node) { 
+            node = this.root;
+        }
+        while(node.right) { 
+            node = node.right;
+        }
+        return node.data;
+    }
+
 
 
 
