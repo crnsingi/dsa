@@ -5,4 +5,8 @@ class HashTable {
         this.numberOfValues = 0;
         this.size = size;
     }
+
+    add(key, value) { 
+        
+    }
 }
