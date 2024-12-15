@@ -9,6 +9,12 @@ class HashTable {
     add(key, value) { 
         // First, find the hash.
         const hash = this.calculateHash(key);
+        if(!this.values.hasOwnProperty(hash)) {
+            // If the values doesn't have the hash value,
+            //add it to the values object, and set it equal
+            // to an empty object.
+
+        }
 
     }
 }
