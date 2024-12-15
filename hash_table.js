@@ -13,7 +13,7 @@ class HashTable {
             // If the values doesn't have the hash value,
             //add it to the values object, and set it equal
             // to an empty object.
-
+            this.numberOfValues++;
         }
 
     }
