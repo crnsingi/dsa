@@ -7,6 +7,8 @@ class HashTable {
     }
 
     add(key, value) { 
-        
+        // First, find the hash.
+        const hash = this.calculateHash(key);
+
     }
 }
