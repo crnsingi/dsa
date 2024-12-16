@@ -25,8 +25,8 @@ class HashTable {
         if(this.values.hasOwnProperty(hash) && this.values[hash].hasOwnProperty(key)) {
             // If the values have the hash, and the hash's value has a key, then delete.
             delete this.values[hash][key];
-
+            // We just deleted an item, so decrement the number of values by one.
+            this.numberOfValues--;
         }
-
     }
 }
