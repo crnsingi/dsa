@@ -13,6 +13,9 @@ class SinglyLinkedList {
     //Add node to list
     addNode(data) {
         const node = new Node(data);
+        if(!this.head) {
+            
+        }
 
     }
 }
