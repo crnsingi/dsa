@@ -68,7 +68,8 @@ class SinglyLinkedList {
                     node.next = current.next;
                     current.next = node;
                 }
-
+                //Increment the length of the list by one.
+                this.numberOfValues++;
             }
 
         }
