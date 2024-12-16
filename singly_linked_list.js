@@ -37,7 +37,10 @@ class SinglyLinkedList {
                 if(current === this.head) {
                     // The head is now equal to the second node in the list which is the next node.
                     this.head = this.head.next;
-
+                }
+                if (current === this.tail) {
+                    // If the node we want to remove is the tail , the tail is equal to its the previous node.
+                    this.tail = previous;
                 }
 
             }
