@@ -83,9 +83,7 @@ class SinglyLinkedList {
             if (fn) {
                 fn (current);
             }
-
+            current = current.next;
         }
     }
-
-
 }
