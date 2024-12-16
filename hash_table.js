@@ -53,7 +53,8 @@ class HashTable {
         let string = '';
         for(const value in this.values) {
             for(const key in this.values[value]) {
-                
+                string += `${this.values[value][key]}`;
+
             }
 
         }
