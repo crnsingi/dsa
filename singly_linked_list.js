@@ -58,7 +58,8 @@ class SinglyLinkedList {
         let current = this.head;
         while(current) {
             if (current.data === toNodeData) { 
-                
+                const node = new Node(data);
+
             }
 
         }
