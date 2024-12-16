@@ -17,6 +17,7 @@ class SinglyLinkedList {
             // If there's no head, that means that the list has no length'
             // The node will then be both the tail and the head.
             this.head = node;
+            this.tail = node;
 
         }
 
