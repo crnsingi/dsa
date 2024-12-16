@@ -14,7 +14,10 @@ class SinglyLinkedList {
     addNode(data) {
         const node = new Node(data);
         if(!this.head) {
-            
+            // If there's no head, that means that the list has no length'
+            // The node will then be both the tail and the head.
+            this.head = node;
+
         }
 
     }
