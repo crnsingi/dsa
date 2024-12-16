@@ -42,6 +42,8 @@ class SinglyLinkedList {
                     // If the node we want to remove is the tail , the tail is equal to its the previous node.
                     this.tail = previous;
                 }
+                // The previous node is now the current node, and so its next value.
+                previous.next = current.next;
 
             }
 
