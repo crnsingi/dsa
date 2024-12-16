@@ -20,6 +20,8 @@ class HashTable {
     }
 
     remove(key) {
-        
+        // First, find the hash.
+        const hash = this.calculateHash(key);
+
     }
 }
