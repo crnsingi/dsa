@@ -79,7 +79,9 @@ class SinglyLinkedList {
     traverse(fn) {
         // Call function passed in arg on every node in list.
         let current = this.head;
-
+        while (current) {
+            
+        }
     }
 
 
