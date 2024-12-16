@@ -29,4 +29,8 @@ class HashTable {
             this.numberOfValues--;
         }
     }
+
+    calculateHash(key) {
+        
+    }
 }
