@@ -18,4 +18,8 @@ class HashTable {
         // Set the hash's key value euqal to the new value.
         this.values[hash][key] = value;
     }
+
+    remove(key) {
+        
+    }
 }
