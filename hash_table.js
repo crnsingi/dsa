@@ -48,4 +48,9 @@ class HashTable {
     length() {
         return this.numberOfValues;
     }
+
+    print() {
+        let string = '';
+
+    }
 }
