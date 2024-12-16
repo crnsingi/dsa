@@ -80,7 +80,10 @@ class SinglyLinkedList {
         // Call function passed in arg on every node in list.
         let current = this.head;
         while (current) {
-            
+            if (fn) {
+                fn (current);
+            }
+
         }
     }
 
