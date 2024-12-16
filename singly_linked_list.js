@@ -46,7 +46,8 @@ class SinglyLinkedList {
                 previous.next = current.next;
                 // We just shortened the list by one.
                 this.numberOfValues--;
-
+            } else {
+                previous = current;
             }
 
         }
