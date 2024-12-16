@@ -30,6 +30,9 @@ class SinglyLinkedList {
     removeNode(data) {
         let previous = this. head;
         let current = this.head;
+        while(current) {
+            
+        }
 
     }
 }
