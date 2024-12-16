@@ -30,8 +30,12 @@ class SinglyLinkedList {
     removeNode(data) {
         let previous = this. head;
         let current = this.head;
-        while(current) {
-            
+        while (current) {
+            // If the data is equal, then we found the node we want to have removed.
+            if (current.data === data) {
+                
+            }
+
         }
 
     }
