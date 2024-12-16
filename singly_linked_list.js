@@ -26,4 +26,8 @@ class SinglyLinkedList {
         // We just added a new node, so the list is one node longer
         this.numberOfValues++;
     }
+
+    removeNode(data) {
+        
+    }
 }
