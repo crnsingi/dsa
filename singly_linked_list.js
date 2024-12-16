@@ -59,6 +59,9 @@ class SinglyLinkedList {
         while(current) {
             if (current.data === toNodeData) { 
                 const node = new Node(data);
+                if ( current.data === this.tail) {
+                    
+                }
 
             }
 
