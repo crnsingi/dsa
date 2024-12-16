@@ -33,7 +33,11 @@ class SinglyLinkedList {
         while (current) {
             // If the data is equal, then we found the node we want to have removed.
             if (current.data === data) {
-                
+                // if the node we want to remove is the head node:
+                if(current === this.head) {
+                    
+                }
+
             }
 
         }
