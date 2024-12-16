@@ -56,6 +56,9 @@ class SinglyLinkedList {
 
     insertAfter(data, toNodeData) {
         let current = this.head;
+        while(current) {
+            
+        }
 
     }
 
