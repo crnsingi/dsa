@@ -63,7 +63,9 @@ class SinglyLinkedList {
                     // The tail's next node is equal to the new node. Add it to the end of list.
                     this.tail.next = node;
                     this.tail = node;
-
+                } else { 
+                    // The found node's next node is equal to the new node. Add it to the list.
+                    node.next = current.next;
                 }
 
             }
