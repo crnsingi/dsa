@@ -73,8 +73,12 @@ class SinglyLinkedList {
             }
             // Go to next node until current.data === toNodeData returns true.
             current = current.next;
-
         }
+    }
+
+    traverse(fn) {
+        // Call function passed in arg on every node in list.
+        let current = this.head;
 
     }
 
