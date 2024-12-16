@@ -66,6 +66,7 @@ class SinglyLinkedList {
                 } else { 
                     // The found node's next node is equal to the new node. Add it to the list.
                     node.next = current.next;
+                    current.next = node;
                 }
 
             }
