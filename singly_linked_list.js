@@ -28,7 +28,7 @@ class SinglyLinkedList {
     }
 
     removeNode(data) {
-        let previous = this. head;
+        let previous = this.head;
         let current = this.head;
         while (current) {
             // If the data is equal, then we found the node we want to have removed.
@@ -51,8 +51,12 @@ class SinglyLinkedList {
             }
             // Go to next node until current.datat === data returns true.
             current = current.next;
-
         }
-
     }
+
+    insertAfter(data, toNodeData) {
+        
+    }
+
+
 }
