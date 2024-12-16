@@ -33,4 +33,8 @@ class HashTable {
     calculateHash(key) {
         return key.toString().length % this.size;
     }
+
+    search(key) { 
+        
+    }
 }
