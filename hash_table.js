@@ -51,6 +51,9 @@ class HashTable {
 
     print() {
         let string = '';
+        for(const value in this.values) {
+
+        }
 
     }
 }
