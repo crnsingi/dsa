@@ -49,6 +49,8 @@ class SinglyLinkedList {
             } else {
                 previous = current;
             }
+            // Go to next node until current.datat === data returns true.
+            current = current.next;
 
         }
 
