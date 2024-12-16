@@ -15,7 +15,7 @@ class HashTable {
             // to an empty object.
             this.numberOfValues++;
         }
-        // Set the hash's key value euqal to the new value.
+        // Set the hash's key value equal to the new value.
         this.values[hash][key] = value;
     }
 
