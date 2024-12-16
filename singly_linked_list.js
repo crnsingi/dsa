@@ -28,6 +28,7 @@ class SinglyLinkedList {
     }
 
     removeNode(data) {
-        
+        let previous = this. head;
+
     }
 }
