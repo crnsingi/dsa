@@ -60,7 +60,9 @@ class SinglyLinkedList {
             if (current.data === toNodeData) { 
                 const node = new Node(data);
                 if ( current.data === this.tail) {
-                    
+                    // The tail's next node is equal to the new node. Add it to the end of list.
+                    this.tail.next = node;
+
                 }
 
             }
