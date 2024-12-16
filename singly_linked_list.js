@@ -21,6 +21,7 @@ class SinglyLinkedList {
         } else { 
             // if the list has a length, the tail's next node is the new node.
             this.tail.next = node;
+            this.tail = node;
         }
 
     }
