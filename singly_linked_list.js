@@ -18,7 +18,9 @@ class SinglyLinkedList {
             // The node will then be both the tail and the head.
             this.head = node;
             this.tail = node;
-
+        } else { 
+            // if the list has a length, the tail's next node is the new node.
+            this.tail.next = node;
         }
 
     }
