@@ -23,6 +23,7 @@ class SinglyLinkedList {
             this.tail.next = node;
             this.tail = node;
         }
-
+        // We just added a new node, so the list is one node longer
+        this.numberOfValues++;
     }
 }
