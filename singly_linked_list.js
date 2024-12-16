@@ -71,6 +71,8 @@ class SinglyLinkedList {
                 //Increment the length of the list by one.
                 this.numberOfValues++;
             }
+            // Go to next node until current.data === toNodeData returns true.
+            current = current.next;
 
         }
 
