@@ -35,6 +35,8 @@ class HashTable {
     }
 
     search(key) { 
-        
+        // First, find the hash.
+        const hash = this.calculateHash(key);
+
     }
 }
