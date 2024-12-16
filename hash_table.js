@@ -23,7 +23,9 @@ class HashTable {
         // First, find the hash.
         const hash = this.calculateHash(key);
         if(this.values.hasOwnProperty(hash) && this.values[hash].hasOwnProperty(key)) {
-            
+            // If the values have the hash, and the hash's value has a key, then delete.
+            delete this.values[hash][key];
+
         }
 
     }
