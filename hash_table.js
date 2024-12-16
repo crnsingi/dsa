@@ -43,6 +43,9 @@ class HashTable {
         } else {
             return null;
         }
+    }
 
+    length() {
+        return this.numberOfValues;
     }
 }
