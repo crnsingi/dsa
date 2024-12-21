@@ -73,6 +73,7 @@ class DoublyLinkedList {
                 }
                 current.next.previous = node;
                 node.previous = current;
+                node.next = current.next;
 
             }
 
