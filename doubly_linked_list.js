@@ -50,6 +50,7 @@ class DoublyLinkedList {
                 } else {
                     // If it's neither thr tail or head.
                     current.previous.next = current.next;
+                    current.next.previous = current.previous;
                 }
 
             }
