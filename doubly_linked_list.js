@@ -75,9 +75,8 @@ class DoublyLinkedList {
                 node.previous = current;
                 node.next = current.next;
                 current.next = node;
-
+                this.numberOfValues++;
             }
-
         }
 
     }
