@@ -23,6 +23,7 @@ class DoublyLinkedList {
             // list's tail before adding the new node. This means that
             // the new node is behind the current tail
             node.previous = this.tail;
+            this.tail.next = node;
         }
 
     }
