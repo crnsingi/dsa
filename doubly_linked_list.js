@@ -65,7 +65,8 @@ class DoublyLinkedList {
             if (current.data === toNodeData) { 
                 const node = new Node(data);
                 if (current === this.tail) { 
-                    
+                    this.add(data);
+
                 }
 
             }
