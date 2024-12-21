@@ -42,6 +42,7 @@ class DoublyLinkedList {
                 // and the previous node of the new head to null
                 // and there is no previous node anymore.
                 this.head = this.head.next;
+                this.head.previous = null;
 
 
                 }
