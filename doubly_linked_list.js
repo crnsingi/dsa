@@ -66,8 +66,12 @@ class DoublyLinkedList {
                 const node = new Node(data);
                 if (current === this.tail) { 
                     this.add(data);
-
+                } else { 
+                    // Set the next node's previous value to the node
+                    // this means that you insert the new node right before
+                    // the found node.
                 }
+                current.next.previous = node;
 
             }
 
