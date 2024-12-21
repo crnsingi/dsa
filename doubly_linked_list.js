@@ -31,6 +31,9 @@ class DoublyLinkedList {
 
     remove(data) { 
         let current = this.head;
+        while (current) {
+            
+        }
 
     }
 
