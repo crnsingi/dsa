@@ -13,7 +13,8 @@ class DoublyLinkedList {
     }
 
     add(data) {
-        
+        const node = new Node(data);
+
     }
 
 }
