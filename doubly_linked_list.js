@@ -78,6 +78,7 @@ class DoublyLinkedList {
                 this.numberOfValues++;
             }
         }
+        current = current.next;
 
     }
 
