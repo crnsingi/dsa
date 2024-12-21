@@ -104,5 +104,9 @@ traverseReverse(fn) {
 
 length() { 
     return this.numberOfValues;
+}
 
+print() {
+//Print list as string.
+let string = '';
 }
