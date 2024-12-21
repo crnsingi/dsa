@@ -86,7 +86,8 @@ traverse(fn) {
     let current = this.head;
      while (current) { 
         if(fn) { 
-            
+            fn(current);
+
         }
 
     }
