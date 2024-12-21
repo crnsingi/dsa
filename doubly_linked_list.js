@@ -112,6 +112,8 @@ print() {
    let current = this.head;
    while(current) { 
     string += `${current.data}` ;
-
+    current = current.next;
+}
+console.log(string.trim());
 }
 }
