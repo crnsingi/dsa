@@ -24,6 +24,7 @@ class DoublyLinkedList {
             // the new node is behind the current tail
             node.previous = this.tail;
             this.tail.next = node;
+            this.tail = node;
         }
 
     }
