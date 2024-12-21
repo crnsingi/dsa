@@ -44,7 +44,9 @@ class DoublyLinkedList {
                 this.head = this.head.next;
                 this.head.previous = null;
                 } else if ( current === this.tail) { 
-                    
+                    // Set the value of the node before the tail as the new tail.
+                    this.tail = this.tail.previous;
+
                 }
 
             }
