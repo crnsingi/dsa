@@ -34,6 +34,8 @@ class DoublyLinkedList {
         while (current) {
             if (current.data === data) {
                 if(current === this.head && current ===this.tail) { 
+                    // If there's only one songle node in the list.
+                    this.head = null;
 
                 }
 
