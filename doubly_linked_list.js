@@ -103,5 +103,6 @@ traverseReverse(fn) {
 }
 
 length() { 
-    
+    return this.numberOfValues;
+
 }
