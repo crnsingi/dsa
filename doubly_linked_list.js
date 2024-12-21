@@ -95,6 +95,9 @@ traverse(fn) {
 traverseReverse(fn) { 
     let current = this.tail;
     while (current) { 
+        if (fn) { 
+            fn(current);
+        }
         
     }
 
