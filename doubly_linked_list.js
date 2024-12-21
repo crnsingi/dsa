@@ -15,7 +15,9 @@ class DoublyLinkedList {
     add(data) {
         const node = new Node(data);
         if (!this.head) {
-            
+            // if the list is empty, the new node is both the head and the tail.
+            this.head = node;
+
         }
 
     }
