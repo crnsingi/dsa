@@ -61,6 +61,9 @@ class DoublyLinkedList {
 
     insertAfter(data, toNodeData) {
         let current = this.head;
+        while (current) { 
+            
+        }
 
     }
 
