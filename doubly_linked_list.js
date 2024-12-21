@@ -100,5 +100,8 @@ traverseReverse(fn) {
         }
         current = current.previous;
     }
+}
 
+length() { 
+    
 }
