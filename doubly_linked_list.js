@@ -26,7 +26,7 @@ class DoublyLinkedList {
             this.tail.next = node;
             this.tail = node;
         }
-
+        this.numberOfValues++;
     }
 
 }
