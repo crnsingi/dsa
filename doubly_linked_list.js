@@ -9,6 +9,7 @@ class DoublyLinkedList {
     constructor() {
         this.head =null;
         this.tail = null;
+        this.numberOfValues = 0;
     }
 
 }
