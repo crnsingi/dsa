@@ -37,7 +37,8 @@ class DoublyLinkedList {
                     // If there's only one songle node in the list.
                     this.head = null;
                     this.tail = null;
-
+                } else if (current === this.head) { 
+                    
                 }
 
             }
