@@ -29,4 +29,8 @@ class DoublyLinkedList {
         this.numberOfValues++;
     }
 
+    remove(data) { 
+        
+    }
+
 }
