@@ -72,6 +72,7 @@ class DoublyLinkedList {
                     // the found node.
                 }
                 current.next.previous = node;
+                node.previous = current;
 
             }
 
