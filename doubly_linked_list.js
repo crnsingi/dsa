@@ -93,5 +93,6 @@ traverse(fn) {
 }
 
 traverseReverse(fn) { 
-    
+    let current = this.tail;
+
 }
