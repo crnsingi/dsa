@@ -7,7 +7,8 @@ function Node(data) {
 
 class DoublyLinkedList { 
     constructor() {
-        this.head = null;
+        this.head =null;
+        this.tail = null;
     }
 
 }
