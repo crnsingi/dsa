@@ -57,7 +57,10 @@ class DoublyLinkedList {
             // Keep on looping until the right node.
             current = current.next;
         }
+    }
 
+    insertAfter() {
+        
     }
 
 }
