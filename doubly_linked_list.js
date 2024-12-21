@@ -33,7 +33,10 @@ class DoublyLinkedList {
         let current = this.head;
         while (current) {
             if (current.data === data) {
-                
+                if(current === this.head && current ===this.tail) { 
+
+                }
+
             }
 
         }
