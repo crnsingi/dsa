@@ -84,8 +84,11 @@ class DoublyLinkedList {
 
 traverse(fn) {
     let current = this.head;
-    while (current) { 
-        
+     while (current) { 
+        if(fn) { 
+            
+        }
+
     }
 
 }
