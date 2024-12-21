@@ -79,7 +79,9 @@ class DoublyLinkedList {
             }
         }
         current = current.next;
-
     }
+}
+
+traverse() {
 
 }
