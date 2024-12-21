@@ -4,3 +4,10 @@ function Node(data) {
     this.previous = null;
     this.next = null;
 }
+
+class DoublyLinkedList { 
+    constructor() {
+        this.head = null;
+    }
+
+}
