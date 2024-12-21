@@ -82,6 +82,7 @@ class DoublyLinkedList {
     }
 }
 
-traverse() {
+traverse(fn) {
+    let current = this.head;
 
 }
