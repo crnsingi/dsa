@@ -98,7 +98,7 @@ traverseReverse(fn) {
         if (fn) { 
             fn(current);
         }
-        
+        current = current.previous;
     }
 
 }
