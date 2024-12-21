@@ -82,14 +82,16 @@ class DoublyLinkedList {
     }
 }
 
-traverse(fn) {
+traverse(fn) { 
     let current = this.head;
      while (current) { 
         if(fn) { 
             fn(current);
-
         }
+        current = current.next;
+     }
+}
 
-    }
-
+traverseReverse(fn) { 
+    
 }
