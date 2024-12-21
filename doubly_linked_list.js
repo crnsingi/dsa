@@ -110,4 +110,7 @@ print() {
 //Print list as string.
 let string = '';
 let current = this.head;
+while(current) { 
+    
+}
 }
