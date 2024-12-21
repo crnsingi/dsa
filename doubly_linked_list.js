@@ -17,6 +17,7 @@ class DoublyLinkedList {
         if (!this.head) {
             // if the list is empty, the new node is both the head and the tail.
             this.head = node;
+            this.tail = node;
 
         }
 
