@@ -12,4 +12,8 @@ class DoublyLinkedList {
         this.numberOfValues = 0;
     }
 
+    add(data) {
+        
+    }
+
 }
