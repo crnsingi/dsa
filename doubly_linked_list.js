@@ -52,6 +52,7 @@ class DoublyLinkedList {
                     current.previous.next = current.next;
                     current.next.previous = current.previous;
                 }
+                this.numberOfValues--;
 
             }
 
