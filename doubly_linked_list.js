@@ -53,9 +53,9 @@ class DoublyLinkedList {
                     current.next.previous = current.previous;
                 }
                 this.numberOfValues--;
-
             }
-
+            // Keep on looping until the right node.
+            current = current.next;
         }
 
     }
