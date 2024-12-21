@@ -43,8 +43,8 @@ class DoublyLinkedList {
                 // and there is no previous node anymore.
                 this.head = this.head.next;
                 this.head.previous = null;
-
-
+                } else if ( current === this.tail) { 
+                    
                 }
 
             }
