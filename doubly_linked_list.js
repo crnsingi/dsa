@@ -18,7 +18,11 @@ class DoublyLinkedList {
             // if the list is empty, the new node is both the head and the tail.
             this.head = node;
             this.tail = node;
-
+        } else { 
+            // Otherwise, the new node's previous node is equal to the
+            // list's tail before adding the new node. This means that
+            // the new node is behind the current tail
+            node.previous = this.tail;
         }
 
     }
