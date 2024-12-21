@@ -38,7 +38,12 @@ class DoublyLinkedList {
                     this.head = null;
                     this.tail = null;
                 } else if (current === this.head) { 
-                    
+                // The head's value value should  be set to the next node's value
+                // and the previous node of the new head to null
+                // and there is no previous node anymore.
+                this.head = this.head.next;
+
+
                 }
 
             }
