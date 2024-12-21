@@ -107,10 +107,11 @@ length() {
 }
 
 print() {
-//Print list as string.
-let string = '';
-let current = this.head;
-while(current) { 
-    
+   //Print list as string.
+   let string = '';
+   let current = this.head;
+   while(current) { 
+    string += `${current.data}` ;
+
 }
 }
