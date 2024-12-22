@@ -37,7 +37,9 @@ class Graph {
             // Remove the vertex witht the specific index from the edges vertex1 array.
             this.edges[vertex1].splice(index1, 1);
             this.numberOfEdges--;
-
+        }
+        if(index2 >= 0) {
+            
         }
     }
 
