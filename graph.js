@@ -20,8 +20,13 @@ class Graph {
         if (index >= 0) {
             // Remove the vertex with the found index from the vertices array.
             this.vertices.splice(index, 1);
-
         }
+        // If the values of the vertex in the edge's array has data.
+        while (this.edges[vertex].length) {
+            
+        }
+
+        // If the values of the vertex by getting the last value of the array.
 
     }
 
