@@ -29,4 +29,8 @@ class Graph {
         }
     }
 
+    addEdge(vertex1, vertex2) {
+        
+    }
+
 }
