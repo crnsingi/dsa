@@ -14,4 +14,8 @@ class Graph {
         this.edges[vertex] = [];
     }
 
+    removeVertex(vertex) {
+        
+    }
+
 }
