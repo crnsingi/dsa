@@ -18,7 +18,9 @@ class Graph {
         //Find the index of the vertex you want to remove in the vertices array.
         const index = this.vertices.indexOf(vertex);
         if (index >= 0) {
-            
+            // Remove the vertex with the found index from the vertices array.
+            this.vertices.splice(index, 1);
+
         }
 
     }
