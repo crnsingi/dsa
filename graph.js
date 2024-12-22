@@ -7,4 +7,8 @@ class Graph {
         this.numberOfEdges = 0;
     }
 
+    addVertex(vertex) {
+        
+    }
+
 }
