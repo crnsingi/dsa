@@ -33,8 +33,9 @@ class Graph {
         // find indeces of verteces.
         const index1 = this.edges[vertex1] ? this.edges[vertex1].indexOf(vertex2) : -1;
         const index2 = this.edges[vertex2] ? this.edges[vertex2].indexOf(vertex1) : -1;
-
-
+        if (index1 >=0) {
+            
+        }
     }
 
 }
