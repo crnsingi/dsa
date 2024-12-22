@@ -8,7 +8,9 @@ class Graph {
     }
 
     addVertex(vertex) {
-        
+        // Add the new vertex to the vertices array.
+        this.vertices.push(vertex);
+
     }
 
 }
