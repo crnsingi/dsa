@@ -4,6 +4,7 @@ class Graph {
         this.vertices = [];
         //Ordered pairs. 
         this.edges= [];
+        this.numberOfEdges = 0;
     }
 
 }
