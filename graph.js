@@ -39,7 +39,7 @@ class Graph {
             this.numberOfEdges--;
         }
         if(index2 >= 0) {
-            
+            this.edges[vertex2].splice(index2, 1);
         }
     }
 
