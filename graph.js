@@ -25,11 +25,8 @@ class Graph {
         while (this.edges[vertex].length) {
           // Find the adjacent vertex by getting the last value of the array.
           const adjacentVertex = this.edges[vertex].pop();
-
-
+          this.removeEdge(adjacentVertex, vertex);
         }
-
-
     }
 
 }
