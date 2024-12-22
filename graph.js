@@ -23,10 +23,12 @@ class Graph {
         }
         // If the values of the vertex in the edge's array has data.
         while (this.edges[vertex].length) {
-            
+          // Find the adjacent vertex by getting the last value of the array.
+          const adjacentVertex = this.edges[vertex].pop();
+
+
         }
 
-        // If the values of the vertex by getting the last value of the array.
 
     }
 
