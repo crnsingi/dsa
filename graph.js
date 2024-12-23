@@ -85,4 +85,9 @@ class Graph {
         }
     }
 
+    traverseBFS (vertex, fn) {
+         
+
+    }
+
 }
