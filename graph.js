@@ -63,8 +63,9 @@ class Graph {
         //Depth - first search 
         if(this.vertices.indexOf(vertex) <0) {
             return console.log('No vertex, sorry');
-
         }
+        //Pass empty array visited as arg to traverseDFS in order to start looping.
+        const visited = [];
 
     }
 
