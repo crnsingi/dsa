@@ -32,6 +32,7 @@ class Graph {
     addEdge(vertex1, vertex2) {
         //Add vertives to edges array and increment number of edges.
         this.edges[vertex1].push(vertex2);
+        this.edges[vertex2].push(vertex1);
 
     }
 
