@@ -51,4 +51,8 @@ class Graph {
         }
     }
 
+    size() {
+        
+    }
+
 }
