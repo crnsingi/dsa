@@ -66,7 +66,7 @@ class Graph {
         }
         //Pass empty array visited as arg to traverseDFS in order to start looping.
         const visited = [];
-
+        this.traverseDFS(vertex, visited, fn);
     }
 
 }
