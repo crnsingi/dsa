@@ -69,4 +69,9 @@ class Graph {
         this.traverseDFS(vertex, visited, fn);
     }
 
+    traverseDFS(vertex, visited, fn) { 
+        visited[vertex] = true;
+
+    }
+
 }
