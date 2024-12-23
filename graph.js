@@ -55,4 +55,8 @@ class Graph {
         return this.vertices.length;
     }
 
+    relations() {
+        
+    }
+
 }
