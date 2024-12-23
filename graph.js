@@ -100,6 +100,10 @@ class Graph {
             vertex = queue.shift();
             // Invoke function passed as on vertex . 
             fn(vertex);
+            // Loop over vertex's value in edges array . 
+            for (let i =0; i < this.edges[vertex].length; i++) {
+
+            }
 
         }
 
