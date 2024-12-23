@@ -73,7 +73,10 @@ class Graph {
         visited[vertex] = true;
         // Invoke func passed as arg on found vertex in edges array.
         if (this.edges[vertex] !== undefined) {
-            fn(vertex)
+            fn(vertex);
+        }
+        // Loop over values of vertex in edges array . 
+        for (let i = 0; i < this.edges[vertex].length; i++) {
 
         }
 
