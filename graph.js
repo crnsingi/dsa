@@ -93,6 +93,7 @@ class Graph {
         // Push vertex to queue.
         queue.push(vertex);
         const visited = [];
+        visited[vertex] = true;
 
 
     }
