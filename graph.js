@@ -90,6 +90,9 @@ class Graph {
             return console.log('No vertex, sorry');
         }
         const queue =[];
+        // Push vertex to queue.
+        queue.push(vertex);
+        const visited = [];
 
 
     }
