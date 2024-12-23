@@ -62,7 +62,8 @@ class Graph {
     traverseDFS(vertex, fn) {
         //Depth - first search 
         if(this.vertices.indexOf(vertex) <0) {
-            
+            return console.log('No vertex, sorry');
+
         }
 
     }
