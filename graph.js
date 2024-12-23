@@ -78,11 +78,11 @@ class Graph {
         // Loop over values of vertex in edges array . 
         for (let i = 0; i < this.edges[vertex].length; i++) { 
             if (!visited[this.edges[vertex][i]]) {
-                
+                // Invoke traverseDFC function with current vertex index
+                // which leads to the function being invoked on every child in array.
+                this.traverseDFS(this.edges[vertex][i], visited, fn);
             }
-
         }
-
     }
 
 }
