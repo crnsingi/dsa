@@ -102,6 +102,11 @@ class Graph {
             fn(vertex);
             // Loop over vertex's value in edges array . 
             for (let i =0; i < this.edges[vertex].length; i++) {
+                if (!visited[this.edges[vertex][i]]) {
+                    // If this vertex hadn't been visited yet, meaning it's not in the visited array
+                    // set the data in tge visited array to true, as we just visited this vertex.
+
+                }
 
             }
 
