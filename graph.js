@@ -87,6 +87,7 @@ class Graph {
 
     traverseBFS (vertex, fn) {
         if (this.vertices.indexOf(vertex) < 0) {
+            return console.log('No vertex, sorry');
 
         }
 
