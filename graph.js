@@ -95,6 +95,11 @@ class Graph {
         const visited = [];
         visited[vertex] = true;
 
+        while (queue.length) {
+            // Set vertex equal to first item in queue array 
+
+        }
+
 
     }
 
