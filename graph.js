@@ -52,7 +52,7 @@ class Graph {
     }
 
     size() {
-        
+        return this.vertices.length;
     }
 
 }
