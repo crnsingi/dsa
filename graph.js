@@ -96,7 +96,8 @@ class Graph {
         visited[vertex] = true;
 
         while (queue.length) {
-            // Set vertex equal to first item in queue array 
+            // Set vertex equal to first item in queue array.
+            vertex = queue.shift();
 
         }
 
