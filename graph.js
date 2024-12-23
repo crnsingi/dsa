@@ -56,7 +56,7 @@ class Graph {
     }
 
     relations() {
-        
+        return this.numberOfEdges;
     }
 
 }
