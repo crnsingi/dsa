@@ -73,6 +73,7 @@ class Graph {
         visited[vertex] = true;
         // Invoke func passed as arg on found vertex in edges array.
         if (this.edges[vertex] !== undefined) {
+            fn(vertex)
 
         }
 
