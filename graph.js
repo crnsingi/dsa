@@ -76,7 +76,10 @@ class Graph {
             fn(vertex);
         }
         // Loop over values of vertex in edges array . 
-        for (let i = 0; i < this.edges[vertex].length; i++) {
+        for (let i = 0; i < this.edges[vertex].length; i++) { 
+            if (!visited[this.edges[vertex][i]]) {
+                
+            }
 
         }
 
