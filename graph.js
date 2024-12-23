@@ -106,13 +106,18 @@ class Graph {
                     // If this vertex hadn't been visited yet, meaning it's not in the visited array
                     // set the data in tge visited array to true, as we just visited this vertex.
                     visited[this.edges[vertex[i]]] = true;
+                    // Push this value to the queue, by which the while-statement returns true.
                 }
-
+                queue.push(this.edges[vertex][i]);
             }
-
         }
-
-
     }
+}
+
+print() {
+    // Map over every item in vertices array. 
+    console.log(this.vertices.map(vertex => {
+        
+    }))
 
 }
