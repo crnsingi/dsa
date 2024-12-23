@@ -98,6 +98,8 @@ class Graph {
         while (queue.length) {
             // Set vertex equal to first item in queue array.
             vertex = queue.shift();
+            // Invoke function passed as on vertex . 
+            fn(vertex);
 
         }
 
