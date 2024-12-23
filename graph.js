@@ -117,7 +117,9 @@ class Graph {
 print() {
     // Map over every item in vertices array. 
     console.log(this.vertices.map(vertex => {
-        
+        // Return value as 1 => | 2=> | 3 => .....
+        return (`${vertex} => $(this.edges[vertex].join(',')}`.trim();
+
     }))
 
 }
