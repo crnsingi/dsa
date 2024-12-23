@@ -59,4 +59,8 @@ class Graph {
         return this.numberOfEdges;
     }
 
+    traverseDFS(vertex, fn) {
+        
+    }
+
 }
