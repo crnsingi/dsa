@@ -166,7 +166,9 @@ class Tree {
             string += node.data.toString() + (node.data !== '\n' ? ' ' : "");
             if(node === newline && queue.length) {
                 queue.push(newline);
-
+            }
+            for(const child of node.children) {
+                
             }
 
         }
