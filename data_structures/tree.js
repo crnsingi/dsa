@@ -111,6 +111,8 @@ class Tree {
     }
 
     traverseBFS(fn) {
-        
+        // Breadth-first search.
+        const queue = [this.root];
+
     }
 }
