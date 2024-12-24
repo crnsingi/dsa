@@ -5,7 +5,8 @@ function Node(data) {
 
 class Tree { 
     constructor() {
-        
+        this.root = null;
+
     }
 
 }
