@@ -121,6 +121,9 @@ class Tree {
             if(fn) {
                 fn(node);
             }
+            for (const chiild of node.children) {
+                
+            }
 
         }
 
