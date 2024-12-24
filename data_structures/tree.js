@@ -143,7 +143,8 @@ class Tree {
             // Set var string equal to the node's data stringified.
             string += `${node.data.toString()}`;
             if (node === newline && queue.length) {
-                
+                queue.push(newline);
+
             }
 
         }
