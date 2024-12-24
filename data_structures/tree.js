@@ -16,7 +16,8 @@ class Tree {
         // If the parent isn't null, meaning it's not the root node
         // push the new node as a child to that parent node.
         if (parent) {
-            
+            parent.children.push(node);
+
         }
 
     }
