@@ -160,6 +160,7 @@ class Tree {
         // to distinguish different levels, you print the leveks on different lines.
         const newline = new Node('\n');
         const queue = [this.root, newline];
+        let string = '';
 
 
 
