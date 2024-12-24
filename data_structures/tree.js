@@ -79,7 +79,10 @@ class Tree {
 
     preOrder(node, fn) { 
         if(node) {
-            
+            if(fn) {
+                
+            }
+
         }
 
     }
