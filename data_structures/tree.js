@@ -129,6 +129,9 @@ class Tree {
     }
 
     print() {
-        
+        if(!this.root) {
+            
+        }
+
     }
 }
