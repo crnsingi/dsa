@@ -117,6 +117,10 @@ class Tree {
         while (queue.length) {
             // The current node is equal to the first element in the array.
             const node = queue.shift();
+            // If a function had been passed, invoke that function on the node.
+            if(fn) {
+                fn(node);
+            }
 
         }
 
