@@ -25,8 +25,11 @@ class Tree {
                 //You can't have two roots.
                 return 'Oops! You can\'t have two roots!'
             }
-                    }
+         }
+    }
 
+    remove(data) {
+        
     }
 
 }
