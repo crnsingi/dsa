@@ -136,6 +136,7 @@ class Tree {
         const newline = new Node('|');
         //After tha root, a newline always follows, as it's the top level.
         const queue = [this.root, newline];
+        let string = '';
 
     }
 }
