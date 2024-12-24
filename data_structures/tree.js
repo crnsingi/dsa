@@ -46,7 +46,8 @@ class Tree {
                 if(child.data === data) {
                     // Delete that specific child node from the children entries array.
                     node.children.splice(index, 1);
-
+                } else { 
+                    queue.push(child);
                 }
 
             }
