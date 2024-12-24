@@ -134,6 +134,8 @@ class Tree {
         }
         // Add a newline to distinguish different levels of tree.
         const newline = new Node('|');
+        //After tha root, a newline always follows, as it's the top level.
+        const queue = [this.root, newline];
 
     }
 }
