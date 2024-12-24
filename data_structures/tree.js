@@ -149,6 +149,7 @@ class Tree {
                 queue.push(child);
             }
         }
+        console.log(string.slice(0, -2).trim());
 
 
     }
