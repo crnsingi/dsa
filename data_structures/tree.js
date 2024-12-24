@@ -70,9 +70,8 @@ class Tree {
             }
             // Push the children of that node to the queue 
             for (const child of node.children) {
-                
+                queue.push(child);
             }
-
         }
 
     }
