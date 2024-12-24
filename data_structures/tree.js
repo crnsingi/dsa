@@ -138,7 +138,9 @@ class Tree {
         const queue = [this.root, newline];
         let string = '';
         while (queue.length) {
-            
+            // Node is equal to first item in array.
+            const node = queue.shift();
+
         }
 
 
