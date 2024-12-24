@@ -57,4 +57,8 @@ class Tree {
         return !!this.findBFS(data);
     }
 
+    findBFS(data) { 
+        
+    }
+
 }
