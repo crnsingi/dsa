@@ -150,7 +150,9 @@ class Tree {
             }
         }
         console.log(string.slice(0, -2).trim());
+    }
 
-
+    printByLevel() {
+        
     }
 }
