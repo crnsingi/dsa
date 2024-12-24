@@ -155,8 +155,12 @@ class Tree {
     printByLevel() {
         if(!this.root) {
             return console.log('No root node found');
-
         }
+        // Same as print method, however instead of usinf the pipe symbol
+        // to distinguish different levels, you print the leveks on different lines.
+        const newline = new Node('\n');
+
+
 
     }
 }
