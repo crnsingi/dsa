@@ -131,8 +131,9 @@ class Tree {
     print() {
         if(!this.root) {
             return console.log('There\'s no root');
-
         }
+        // Add a newline to distinguish different levels of tree.
+        const newline = new Node('|');
 
     }
 }
