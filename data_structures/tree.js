@@ -61,6 +61,9 @@ class Tree {
         // Breadth-first search.
         // Define a queue, with the initial value of an array with the root.
         const queue = [this.root];
+        while (queue.length) {
+            
+        }
 
     }
 
