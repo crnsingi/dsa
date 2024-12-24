@@ -99,4 +99,8 @@ class Tree {
         }
     }
 
+    traverseDFS(fn, method) {
+        
+    }
+
 }
