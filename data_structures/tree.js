@@ -102,6 +102,9 @@ class Tree {
     traverseDFS(fn, method) {
         // Depth-first search.
         const current = this.root;
+        if (method) { 
+            
+        }
 
     }
 
