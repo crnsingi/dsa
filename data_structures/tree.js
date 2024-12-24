@@ -9,7 +9,9 @@ class Tree {
     }
 
     add(data, toNodeData) {
-        
+        // Create new node /
+        const node = new Node(data);
+
     }
 
 }
