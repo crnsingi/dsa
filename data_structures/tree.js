@@ -116,6 +116,7 @@ class Tree {
         // Define a queue, with the initial value of an array with the root.
         while (queue.length) {
             // The current node is equal to the first element in the array.
+            const node = queue.shift();
 
         }
 
