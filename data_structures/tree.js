@@ -124,10 +124,11 @@ class Tree {
             for (const child of node.children) {
                 // Push all children of the node to the array
                 queue.push(child);
-
             }
-
         }
+    }
 
+    print() {
+        
     }
 }
