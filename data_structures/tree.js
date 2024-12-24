@@ -94,11 +94,9 @@ class Tree {
                 this.postOrder(child, fn);
             }
             if(fn) {
-                
+                fn(node);
             }
-
         }
-
     }
 
 }
