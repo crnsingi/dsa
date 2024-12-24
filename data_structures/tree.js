@@ -121,8 +121,10 @@ class Tree {
             if(fn) {
                 fn(node);
             }
-            for (const chiild of node.children) {
-                
+            for (const child of node.children) {
+                // Push all children of the node to the array
+                queue.push(child);
+
             }
 
         }
