@@ -17,8 +17,9 @@ class Tree {
         // push the new node as a child to that parent node.
         if (parent) {
             parent.children.push(node);
-
-        }
+        } else {  
+            // If there is no parent, set the node equal to the root.
+                    }
 
     }
 
