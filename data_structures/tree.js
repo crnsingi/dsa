@@ -19,6 +19,9 @@ class Tree {
             parent.children.push(node);
         } else {  
             // If there is no parent, set the node equal to the root.
+            if (!this.root) {
+
+            }
                     }
 
     }
