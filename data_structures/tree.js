@@ -83,7 +83,8 @@ class Tree {
                 fn(node);
             }
             for(const child of node.children) {
-                
+                this.preOrder(child, fn);
+
             }
 
         }
