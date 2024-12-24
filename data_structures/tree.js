@@ -105,9 +105,9 @@ class Tree {
         if (method) { 
             // If a method has been passed as an arg, invoke that method on the current one/
             this[`${method}`](current, fn);
-
+        } else { 
+            this.preOrder(current, fn);
         }
-
     }
 
 }
