@@ -92,7 +92,9 @@ class Tree {
         if(node) {
             for(const child of node.children) {
                 this.postOrder(child, fn);
-
+            }
+            if(fn) {
+                
             }
 
         }
