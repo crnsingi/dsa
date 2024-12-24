@@ -165,7 +165,8 @@ class Tree {
             const node = queue.shift();
             string += node.data.toString() + (node.data !== '\n' ? ' ' : "");
             if(node === newline && queue.length) {
-                
+                queue.push(newline);
+
             }
 
         }
