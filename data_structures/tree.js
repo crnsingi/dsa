@@ -37,6 +37,9 @@ class Tree {
 
         // Define a queue, whit the initial value of an array with the root. 
         const queue = [this.root];
+        while (queue.length) {
+            
+        }
 
     }
 
