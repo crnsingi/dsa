@@ -110,4 +110,7 @@ class Tree {
         }
     }
 
+    traverseBFS(fn) {
+        
+    }
 }
