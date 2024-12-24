@@ -80,6 +80,9 @@ class Tree {
     preOrder(node, fn) { 
         if(node) {
             if(fn) {
+                fn(node);
+            }
+            for(const child of node.children) {
                 
             }
 
