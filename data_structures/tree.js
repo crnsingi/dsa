@@ -73,6 +73,8 @@ class Tree {
                 queue.push(child);
             }
         }
+        // If the queue has no length, meaning the value hasn't been found, return null.
+        return null;
 
     }
 
