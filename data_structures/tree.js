@@ -130,7 +130,8 @@ class Tree {
 
     print() {
         if(!this.root) {
-            
+            return console.log('There\'s no root');
+
         }
 
     }
