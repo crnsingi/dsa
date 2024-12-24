@@ -144,8 +144,11 @@ class Tree {
             string += `${node.data.toString()}`;
             if (node === newline && queue.length) {
                 queue.push(newline);
-
             }
+            for (const child of node.children) {
+                
+            }
+            )
 
         }
 
