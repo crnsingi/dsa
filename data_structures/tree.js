@@ -21,7 +21,9 @@ class Tree {
             // If there is no parent, set the node equal to the root.
             if (!this.root) {
                 this.root = node;
-
+            } else { 
+                //You can't have two roots.
+                return 'Oops! You can\'t have two roots!'
             }
                     }
 
