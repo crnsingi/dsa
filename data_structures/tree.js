@@ -44,7 +44,9 @@ class Tree {
             for ( let [index, child] of node.children.entries()) {
                 // If one of the children's data is equal to the node's data we want to remove:
                 if(child.data === data) {
-                    
+                    // Delete that specific child node from the children entries array.
+                    node.children.splice(index, 1);
+
                 }
 
             }
