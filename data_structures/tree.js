@@ -49,11 +49,12 @@ class Tree {
                 } else { 
                     queue.push(child);
                 }
-
             }
-
         }
+    }
 
+    contains(data) {
+        
     }
 
 }
