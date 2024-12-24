@@ -84,11 +84,12 @@ class Tree {
             }
             for(const child of node.children) {
                 this.preOrder(child, fn);
-
             }
-
         }
+    }
 
+    postOrder(node, fn) {
+        
     }
 
 }
