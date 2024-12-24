@@ -13,6 +13,11 @@ class Tree {
         const node = new Node(data);
         // If the toNodeData arg is passed, find that node. Elsem return null.
         const parent = toNodeData ? this.findBFS(toNodeData) : null;
+        // If the parent isn't null, meaning it's not the root node
+        // push the new node as a child to that parent node.
+        if (parent) {
+            
+        }
 
     }
 
