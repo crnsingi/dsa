@@ -66,7 +66,7 @@ class Tree {
             const node = queue.shift();
             // If the node's data is equal to the data we want, return that node.
             if(node.data === data) {
-                
+                return node;
             }
 
         }
