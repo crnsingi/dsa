@@ -40,6 +40,10 @@ class Tree {
         while (queue.length) {
             // Get the first node in the queue.
             const node = queue.shift();
+            // Get all the children that node has.
+            for ( let [index, child] of node.children.entries()) {
+                
+            }
 
         }
 
