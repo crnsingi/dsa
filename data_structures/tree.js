@@ -33,8 +33,10 @@ class Tree {
         // remove the node by setting it to null.
         if (this.root.data === data) {
             this.root = null;
-
         }
+
+        // Define a queue, whit the initial value of an array with the root. 
+        const queue = [this.root];
 
     }
 
