@@ -62,7 +62,9 @@ class Tree {
         // Define a queue, with the initial value of an array with the root.
         const queue = [this.root];
         while (queue.length) {
-            
+            // Get the first node of the array. 
+            const node = queue.shift();
+
         }
 
     }
