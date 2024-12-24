@@ -159,6 +159,7 @@ class Tree {
         // Same as print method, however instead of usinf the pipe symbol
         // to distinguish different levels, you print the leveks on different lines.
         const newline = new Node('\n');
+        const queue = [this.root, newline];
 
 
 
