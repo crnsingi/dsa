@@ -90,7 +90,10 @@ class Tree {
 
     postOrder(node, fn) {
         if(node) {
-            
+            for(const child of node.children) {
+                
+            }
+
         }
 
     }
