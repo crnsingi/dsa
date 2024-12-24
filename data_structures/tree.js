@@ -29,7 +29,12 @@ class Tree {
     }
 
     remove(data) {
-        
+        // If the node's data we want to remove is euqal to the root's data
+        // remove the node by setting it to null.
+        if (this.root.data === data) {
+            
+        }
+
     }
 
 }
