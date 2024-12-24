@@ -153,6 +153,9 @@ class Tree {
     }
 
     printByLevel() {
-        
+        if(!this.root) {
+            
+        }
+
     }
 }
