@@ -89,7 +89,10 @@ class Tree {
     }
 
     postOrder(node, fn) {
-        
+        if(node) {
+            
+        }
+
     }
 
 }
