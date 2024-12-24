@@ -140,6 +140,8 @@ class Tree {
         while (queue.length) {
             // Node is equal to first item in array.
             const node = queue.shift();
+            // Set var string equal to the node's data stringified.
+            string += `${node.data.toString()}`;
 
         }
 
