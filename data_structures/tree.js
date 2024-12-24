@@ -146,10 +146,8 @@ class Tree {
                 queue.push(newline);
             }
             for (const child of node.children) {
-                
+                queue.push(child);
             }
-            )
-
         }
 
 
