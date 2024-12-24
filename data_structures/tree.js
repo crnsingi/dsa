@@ -64,6 +64,10 @@ class Tree {
         while (queue.length) {
             // Get the first node of the array. 
             const node = queue.shift();
+            // If the node's data is equal to the data we want, return that node.
+            if(node.data === data) {
+                
+            }
 
         }
 
