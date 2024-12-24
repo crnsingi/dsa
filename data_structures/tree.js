@@ -169,12 +169,8 @@ class Tree {
             }
             for(const child of node.children) {
                 queue.push(child);
-
             }
-
         }
-
-
-
+    console.log(string.trim());
     }
 }
